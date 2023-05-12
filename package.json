@@ -1,6 +1,6 @@
 {
   "name": "ts",
-  "homepage": "https://suwan98.github.io/nomad-coin-project",
+  "homepage": "https://suwan98.github.io/Nomad-coin/",
   "private": false,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,8 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@mui/material": "^5.13.0",
